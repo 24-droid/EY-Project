@@ -23,11 +23,11 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
         </div>
 
         <img 
-          src={urlFor(image)} className="footer-banner-image"
+          src={image ? urlFor(image).url() : ''} className="footer-banner-image"
         />
       </div>
     </div>
   )
 }
 
-export default FooterBanner
+export default FooterBanner;

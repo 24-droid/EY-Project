@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
+import { client } from '../lib/client';
 
-import { urlFor } from '../lib/client';
+
+import  {urlFor}  from '../lib/client';
 
 const HeroBanner = ({ heroBanner }) => {
   return (
@@ -26,4 +28,4 @@ const HeroBanner = ({ heroBanner }) => {
   )
 }
 
-export default HeroBanner
+export default HeroBanner;

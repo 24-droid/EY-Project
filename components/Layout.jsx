@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>JS Mastery Store</title>
+        <title>TrendHive Store</title>
       </Head>
       <header>
         <Navbar />
@@ -23,4 +23,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default Layout;
